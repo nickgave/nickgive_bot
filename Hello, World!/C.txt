@@ -1,0 +1,27 @@
+﻿(K&R기준)```c
+main()
+{
+    puts("Hello, World!");
+    return 0;
+}```(C99기준)```c
+#include <stdio.h>
+
+int main(void)
+{
+    printf("Hello, World!");
+    return 0;
+}```(C11기준)```c
+#include <stdio.h>
+
+int main(int argc, const char * argv[])
+{
+  printf("Hello, World!\n");
+  return 0;
+}```혹은```c
+#include <stdio.h>
+
+int main(void)
+{
+  puts("Hello, World!");
+  return 0;
+}```

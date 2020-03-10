@@ -1,0 +1,4 @@
+6버전 이하만 됨 ```vb
+Private Sub CommandButton1_Click()
+  MsgBox "Hello, World!"
+End Sub```

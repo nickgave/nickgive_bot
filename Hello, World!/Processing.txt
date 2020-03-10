@@ -1,0 +1,11 @@
+```processing
+println("Hello, World!");```
+이렇게 하면 프로세싱의 look&feel 을 살린다. 먼저 프로세싱 IDE의 Create Font 기능을 이용해 viw 폰트를 미리 만들어야 한다.```processing
+void setup() {
+  PFont font = loadFont("myfont.viw")
+  textFont(font,20);
+}
+
+void draw() {
+  text("Hello, World!", 30,50);
+}```

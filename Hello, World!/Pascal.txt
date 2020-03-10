@@ -1,0 +1,6 @@
+```pascal
+Program Hello;
+
+begin
+  wrintln("Hello, World!")
+end.```

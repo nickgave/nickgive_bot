@@ -1,0 +1,36 @@
+Intel x64, Mac OS X, NASM
+```section .data
+hello_world  db  "Hello, World!", 0x0a
+
+  section .text
+  global _start 
+
+_start:
+  mov rax, 4
+  mov rbx, 1
+  mov rcx, hello_world
+  mov rdx, 14
+  syscall
+  mov rax, 1
+  mov rbx, 0
+  syscall```
+PowerPC, Mac OS X, AS
+```msg:
+  .string "Hello, world!\n"
+  len = . -msg
+
+.text
+
+  .global _start
+_start:
+
+  li  0,4
+  li  3,1
+  lis  4,msg@ha
+  addi  4,4,msg@l
+  li 5,len
+  sc
+
+  li  0,1
+  li  3,1
+  sc```

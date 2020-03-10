@@ -1,0 +1,14 @@
+﻿```vbnet
+ Public Class Form1
+  Private Sub button_click
+    Msgbox("Hello, World!")
+  End Sub
+End Class```
+콘솔이라면?```vbnet
+Module Hello
+
+  Sub Main()
+    Console.Writeline("Hello, World!")
+  End Sub
+
+End Module```

@@ -1,0 +1,11 @@
+```fortran
+  program 
+    Print *, "Hello, world!"
+  End``` 혹은 ```fortran
+PROGRAM MAIN
+    WRITE(*,*) "Hello, world!"
+END```GML 오브젝트 만들고 draw이벤트에 코드넣고 룸을 만들어 오브젝트 배치한다.```draw_text(x,y,"Hello, World");```
+만약 젤 위에 안나오고 이상한 곳에 나오면```fortran
+draw_text(0,0,"Hello, World");```
+메세지 창```fortran
+show_message("Hello, Wolrd!")```

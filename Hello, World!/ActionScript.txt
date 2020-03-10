@@ -1,0 +1,10 @@
+2.0```actionscript
+trace("Hello, World!")```
+3.0```actionscript
+package {
+	public class HelloWorld extends Sprite {
+		public function HelloWorld():void {
+			trace("Hello,World!");
+		}
+	}
+}```

@@ -1,0 +1,5 @@
+기계학습을 위해 변수 보다는 텐서를 다루는데 최적화 되어있는 오픈 소스 라이브러리 이기 때문에 변수가 아니라 텐서로 출력한다.```import tensorflow as tf
+
+hello = tf.constant("Hello, World!")
+sess = tf.Session()
+print sess.run(hello)```

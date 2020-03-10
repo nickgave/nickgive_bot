@@ -1,0 +1,5 @@
+```perl
+print "Hello, World!\n";```
+say를 쓰면 \n을 생략할수 있다
+```perl
+say "Hello, World!";```

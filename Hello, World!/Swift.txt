@@ -1,0 +1,4 @@
+Swift 1.0 ```swift
+println("Hello, World!")```
+Swift 2.0 이후 ```swift
+print("Hello, World!")```

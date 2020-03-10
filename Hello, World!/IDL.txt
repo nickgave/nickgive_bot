@@ -1,0 +1,3 @@
+﻿```PRO main
+  print, "Hello,world!"
+END```

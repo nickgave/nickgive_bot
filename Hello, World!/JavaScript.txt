@@ -1,0 +1,9 @@
+웹 페이지 출력
+```javascript
+document.write("Hello, world!");```
+브라우저 경고 창 출력
+```javascript
+alert("Hello, Wolrd!");```
+터미널 혹은 브라우저 콘솔
+```javascript
+console.log("Hello, world!");```

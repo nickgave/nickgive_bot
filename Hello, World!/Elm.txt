@@ -1,0 +1,30 @@
+(자스를 결과물로 내는 함수형 언어)```elm
+import Html exposing (Html, text)
+import Browser 
+
+type alias Model = 
+  String
+
+type Msg =
+  None
+
+update : Msg -> Model -> Model
+update msg model = 
+  case msg of
+    None -> model
+
+view : Model -> Html msg
+view model =
+  text model
+
+main : Program () Model Msg
+main =
+  Browser.sandbox
+    { init = "Hello world!"
+    , update = update
+    , view = view
+    }```
+걍 간단히 아래처럼 써도 되는데 Elm이 무슨 언어인지 알수없다
+```import Html exposing (text)
+
+main = text "Hello, world!"```

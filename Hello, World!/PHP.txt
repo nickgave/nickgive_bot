@@ -1,0 +1,7 @@
+﻿echo를 print로 대체해도 같은 기능을 수행하고 괄호 생략 가능하다.```php
+<?php
+  echo ("Hello, World!");
+?>```
+혹은 이렇게 써도 결과는 동일.
+```php
+<?="Hello, World! ?>```

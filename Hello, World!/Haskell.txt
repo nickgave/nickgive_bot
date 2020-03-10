@@ -1,0 +1,2 @@
+﻿```haskell
+main = putStrLn "Hello, world!"```
